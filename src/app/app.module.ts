@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { ShoppingListComponent } from './shopping/shopping-list/shopping-list.component';
-import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
-import { ShoppingListEditComponent } from './shopping/shopping-list-edit/shopping-list-edit.component';
-import { RecipeItemComponent } from './recipe/recipe-item/recipe-item.component';
-import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
-import { RecipesComponent } from './recipe/recipes/recipes.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
+import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
+import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-item.component';
+import { RecipeDetailComponent } from './recipes/recipe-detail/recipe-detail.component';
+import { RecipesComponent } from './recipes/recipes.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +21,8 @@ import { RecipesComponent } from './recipe/recipes/recipes.component';
     RecipeDetailComponent,
     RecipesComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
